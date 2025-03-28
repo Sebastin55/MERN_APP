@@ -1,0 +1,72 @@
+
+
+.profile-card {
+    width: 720px;
+    padding: 40px;
+    background-color: #74890e;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(126, 15, 15, 0.1);
+    text-align: left;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .profile-info {
+    padding: 0 10px;
+  }
+  
+  .profile-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .profile-email, .profile-address {
+    font-size: 1rem;
+    color: #82270bb9;
+    margin-bottom: 10px;
+  }
+  
+  .achievements-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .achievements-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievement-item {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    padding-left: 10px;
+  }
+
+  
+  
+  .achievement-item::before {
+    content: '✔';
+    color: #2b476d;
+    margin-right: 10px;
+  }
+  

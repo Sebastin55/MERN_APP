@@ -1,0 +1,32 @@
+/* GridView.css */
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+  gap: 70px;
+  padding: 90px;
+}
+
+.student {
+  background-color: rgb(105, 133, 211);
+  border: 4px solid #000000; /* Changed border size to 4px */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.student h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: hsl(120, 96%, 47%);
+  cursor: pointer;
+}
+
+.student div, .student p {
+  font-size: 1em;
+  color: #000000;
+  margin: 8px 0;
+}
+
+.student p {
+  font-style: italic;
+}
